@@ -1,0 +1,28 @@
+{
+  "name": "crowd-favorite-js-build",
+  "version": "1.0.0",
+  "description": "Create a build script that uses Gulp or Webpack to process assets like CSS and JavaScript from source files. We should be able to run \"npm i\" in the directory and have it install the dependencies and have it work, so don't forget to create and configure a package file. You can include this in the composer package, or keep it separate. However you decide just be clear on the organization.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --open"
+  },
+  "author": "Andrei Constantin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.5.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

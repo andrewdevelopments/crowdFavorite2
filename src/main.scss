@@ -1,0 +1,32 @@
+@import '~bootstrap/scss/bootstrap';
+
+$crowdFavoriteMainColor: #ed2e15;
+$crowdFavoriteSecondaryColor: #211f4f;
+
+body {
+    background: $crowdFavoriteSecondaryColor;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    .logo {
+        max-width: 200px;
+    }
+    > * {
+        color: #fff;
+    }
+    h3 {
+        font-weight: bold;
+        .dot {
+            width: 5px;
+            height: 5px;
+            display: inline-block;
+            background: $crowdFavoriteMainColor;
+        }
+    }
+}
